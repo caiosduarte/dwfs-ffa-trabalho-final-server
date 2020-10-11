@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.18.3"
+  },
   "scripts": {
     "nodemon": "nodemon --watch src --delay 1 --exec npm start",
     "test": "jest",
-    "start": "npm run build:live",
+    "start": "node index.js",
+    "dev": "npm run build:live",
     "build": "tsc -p .",
     "build:live": "nodemon --watch src/**/*.js --exec ts-node src/index.js",
     "startjs": "node src/index.js",

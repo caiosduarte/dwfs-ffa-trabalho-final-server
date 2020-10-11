@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const path = require("path");
-const cors = require("cors");
+//const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
 // Importando JSON-Server
@@ -15,7 +15,7 @@ const validateUser = require("./validate_user.js");
 
 const SECRET_JWT_KEY = "SECRETJWTKEY";
 
-app.use(cors());
+//app.use(cors());
 app.use("*", (req, res, next) => {
   console.log(req.query, req.body);
   next();

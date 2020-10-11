@@ -1,6 +1,8 @@
 const express = require("express");
 
 const app = express();
+
+const port = process.env.PORT || 8080;
 const bodyParser = require("body-parser");
 const path = require("path");
 //const cors = require("cors");
@@ -82,6 +84,9 @@ app.use((err, req, res, next) => {
   res.status(500).send("INTERNAL SERVER ERROR");
 });
 
-app.listen(8080, () =>
-  console.log("Mini server (with Express) ready!")
+app.set('port', port);
+
+
+app.listen(port, () =>
+  console.log(`Mini server (with Express) ready at port ${port}!`)
 );

@@ -6,33 +6,17 @@ const path = require("path");
 //const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
-
-
 // Importando JSON-Server
 const jsonServer = require("json-server");
 
+const validateUser = require("./validate_user.js");
 
-//import sslRedirect from 'heroku-ssl-redirect';
-// enable ssl redirect
-//app.use(sslRedirect());
 //app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-const validateUser = require("./validate_user.js");
-
 const SECRET_JWT_KEY = "SECRETJWTKEY";
 const port = process.env.PORT || 8080;
-
-/*
-app.use(function (req, res, next) {
-  if (req.header('x-forwarded-proto') === 'http') {
-    res.redirect(301, 'https://' + req.hostname + req.url);
-    return
-  }
-  next()
-});
-*/
 
 app.use("*", (req, res, next) => {
   console.log(req.query, req.body);

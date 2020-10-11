@@ -6,7 +6,7 @@
 produção: https://ffa-server-todo-list.herokuapp.com/
 desenvolvimento: http://localhost:8080/
 
-##Verifica o status do servidor
+## Verifica o status do servidor
 
 curl -v http://localhost:8080/status
 

@@ -17,12 +17,6 @@
             "first_name": "Bruno",
             "last_name": "Magalhães",
             "email": "magalhaes.bruno@gmail.com"
-        },
-        {
-            "id": 4,
-            "first_name": "Arley",
-            "last_name": "Bollum",
-            "email": "abollum3@friendfeed.com"
         }
     ],
     "tarefas": [

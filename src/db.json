@@ -1,64 +1,72 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "first_name": "Alisa",
-      "last_name": "Moxon",
-      "email": "amoxon0@phoca.cz"
-    },
-    {
-      "id": 2,
-      "first_name": "Nye",
-      "last_name": "Jowsey",
-      "email": "njowsey1@smugmug.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Scotty",
-      "last_name": "Whiffen",
-      "email": "swhiffen2@opera.com"
-    },
-    {
-      "id": 4,
-      "first_name": "Arley",
-      "last_name": "Bollum",
-      "email": "abollum3@friendfeed.com"
-    },
-    {
-      "id": 5,
-      "first_name": "Marysa",
-      "last_name": "McLeman",
-      "email": "mmcleman4@moonfruit.com"
-    }
-  ],
-  "tarefas": [
-    {
-      "id": 9,
-      "titulo": "Kurdish",
-      "done": true,
-      "createdAt": "09/09/2019",
-      "userId": 1
-    },
-    {
-      "id": 42,
-      "titulo": "Radio Promotions",
-      "done": false,
-      "createdAt": "20/09/2019",
-      "userId": 1
-    },
-    {
-      "id": 51,
-      "titulo": "teste",
-      "done": false,
-      "createdAt": "11/10/2020",
-      "userId": "2"
-    },
-    {
-      "id": 52,
-      "titulo": "teste",
-      "done": false,
-      "createdAt": "11/10/2020",
-      "userId": "1"
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "first_name": "Samuel",
+            "last_name": "Martins",
+            "email": "samuelmartins@gmail.com"
+        },
+        {
+            "id": 2,
+            "first_name": "Caio",
+            "last_name": "Duarte",
+            "email": "caiosduarte@gmail.com"
+        },
+        {
+            "id": 3,
+            "first_name": "Bruno",
+            "last_name": "Magalhães",
+            "email": "magalhaes.bruno@gmail.com"
+        },
+        {
+            "id": 4,
+            "first_name": "Arley",
+            "last_name": "Bollum",
+            "email": "abollum3@friendfeed.com"
+        }
+    ],
+    "tarefas": [
+        {
+            "id": 1,
+            "titulo": "Exercício 1",
+            "done": true,
+            "createdAt": "09/09/2019",
+            "userId": 2
+        },
+        {
+            "id": 2,
+            "titulo": "Trabalho Final",
+            "done": false,
+            "createdAt": "11/10/2020",
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "titulo": "Exercício 2",
+            "done": false,
+            "createdAt": "11/10/2020",
+            "userId": 2
+        },
+        {
+            "id": 4,
+            "titulo": "Exercício 3",
+            "done": false,
+            "createdAt": "11/10/2020",
+            "userId": 2
+        },
+        {
+            "id": 5,
+            "titulo": "Descansar (feriado)",
+            "done": false,
+            "createdAt": "12/10/2020",
+            "userId": 2
+        },
+        {
+            "id": 5,
+            "titulo": "Corrigir trabalhos",
+            "done": false,
+            "createdAt": "12/10/2020",
+            "userId": 1
+        }
+    ]
 }

@@ -1,7 +1,10 @@
 # ffa-trabalho-final-server
 
 
+## Ambientes
 
+produção: https://ffa-server-todo-list.herokuapp.com/
+desenvolvimento: http://localhost:8080/
 
 ##Verifica o status do servidor
 
@@ -32,7 +35,6 @@ Resposta:
 
 ##Loga 
 
-curl -d '{"username":"usuario","password":"password"}' -H 'Content-Type: application/json' http://localhost:8080/login
 curl -d '{"username":"usuario","password":"password"}' -H 'Content-Type: application/json' http://localhost:8080/login
 
 Resposta:

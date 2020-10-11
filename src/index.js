@@ -32,9 +32,11 @@ app.get("/status", (req, res, next) => {
     message: 'Todo List Server alive!'
   });
 });
+
 app.get("/error/:errorCode", (req, res, next) => {
   res.status(req.params.errorCode).send("ERRO GERADO PELO USUARIO");
-})
+});
+
 app.post("/login", (req, res) => {
   validateUser(req.body.username, req.body.password, (idErr, userid) => {
     if (idErr !== null) {

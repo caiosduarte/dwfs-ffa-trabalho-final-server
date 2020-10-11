@@ -11,7 +11,12 @@ const jsonServer = require("json-server");
 
 const validateUser = require("./validate_user.js");
 
-app.use(cors());
+var corsOptions = {
+    origin: "*",
+    optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
